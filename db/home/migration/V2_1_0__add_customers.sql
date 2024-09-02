@@ -25,3 +25,4 @@ INSERT INTO customers(first_name, last_name, phone_number, district, street, hou
 ('William', 'Frankston', '+ 7 927 303 8181', 'Южный', 'Вторая', 18, 88),
 ('Peter', 'Hall', '+ 7 927 466 7562', 'Северный', 'Первая', 17, 7),
 ('Ada', 'Watson', '+ 7 927 114 7812', 'Южный', 'Вторая', 18, 9);
+

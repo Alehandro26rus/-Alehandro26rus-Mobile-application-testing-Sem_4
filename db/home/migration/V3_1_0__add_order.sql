@@ -4,6 +4,7 @@ CREATE TABLE orders
  date_get TIMESTAMP NOT NULL,
      FOREIGN KEY (customer_id) REFERENCES customers (customer_id));
 
+
 INSERT INTO orders(customer_id, date_get) VALUES
 (1, date('now'));
 INSERT INTO orders(customer_id, date_get) VALUES
