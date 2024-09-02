@@ -6,6 +6,7 @@ CREATE TABLE orders_products
  FOREIGN KEY (order_id) REFERENCES orders(order_id),
  FOREIGN KEY (product_id) REFERENCES products(product_id));
 
+
 INSERT INTO orders_products VALUES
 (1, 1, 2), (1, 4, 1), (1, 10, 1),
 (2, 4, 1), (2, 5, 1),
