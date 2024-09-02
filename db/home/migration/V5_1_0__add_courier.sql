@@ -5,6 +5,7 @@ CREATE TABLE courier_info
  phone_number VARCHAR(20) NOT NULL,
  delivery_type VARCHAR(5) NOT NULL);
 
+
 INSERT INTO courier_info(first_name, last_name, phone_number, delivery_type) VALUES
 ('John', 'Rython', '+ 7 960 655 0954', 'foot'),
 ('Kate', 'Looran', '+ 7 960743 0146', 'car'),
